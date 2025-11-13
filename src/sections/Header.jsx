@@ -57,7 +57,7 @@ export default function Header() {
                 <CloudCheckIcon className="text-white" size={24} />
             </div>
           
-          <span className="font-bold text-lg md:text-2xl bg-gradient-to-r from-fuchsia-600 to-fuchsia-700 dark:from-fuchsia-300 dark:to-fuchsia-500 bg-clip-text text-transparent">
+          <span className="font-bold text-lg md:text-2xl bg-fuchsia-600 bg-gradient-to-r from-fuchsia-600 to-fuchsia-700 dark:from-fuchsia-300 dark:to-fuchsia-500 bg-clip-text text-transparent">
             Dimi.dev
           </span>
         </a>

@@ -54,36 +54,37 @@ export default function Hero(){
                 loop={true}
               />
               <div className="mb-6">
-                <p className="text-gray-600 text-xs lg:base dark:text-gray-300 mb-4 lg:mt-4">
+                <p className="text-gray-600 text-xs lg:text-base dark:text-gray-300 mb-4 lg:mt-4">
                   Je suis un <span className="text-yellow-600 dark:text-yellow-400 font-meduim">développeur</span> passionné spécialisé dans la création d'application web et mobile modernes réactifs. <br /> Explorez mon portfolio pour découvrir mes <span className="text-fuchsia-600 dark:text-fuchsia-300 font-meduim">projets</span>  et <span className="text-fuchsia-600 dark:text-fuchsia-300 font-meduim">compétences</span> .
                 </p>
                 <p className="font-medium text-gray-600 dark:text-gray-300 mb-4 mt-4">Je cree des <span className="text-fuchsia-600 dark:text-fuchsia-300 font-bold">Solution dynamiques</span> pour donner vie a vos <span className="text-fuchsia-600 dark:text-fuchsia-300 font-bold">projets</span></p>
               </div>
 
               <div className="flex gap-4 items-center justify-center lg:justify-start flex-wrap">
-                <a href="#projets" className="items-center text-sm md:text-base justify-center flex p-3 lg:p-5 bg-gradient-to-br from-fuchsia-700 to-fuchsia-400 shadow-lg text-white font-bold rounded-xl hover:bg-fuchsia-700 transition hover:scale-105 cursor-pointer duration-200">
+                <a href="#projets" className="items-center text-sm md:text-base bg-fuchsia-600 justify-center flex p-3 lg:p-4 bg-gradient-to-br from-fuchsia-700 to-fuchsia-400 shadow-lg text-white font-bold rounded-xl hover:bg-fuchsia-700 transition hover:scale-105 cursor-pointer duration-200">
                   Voir mes Projets
                 </a>
 
-                <a href="#contact" className="items-center text-sm md:text-base justify-center flex p-3 lg:p-5 border border-yellow-500 text-yellow-500 font-bold rounded-xl dark:hover:bg-gray-700 transition hover:scale-105 cursor-pointer duration-200">
+                <a href="#contact" className="items-center text-sm md:text-base justify-center flex p-3 lg:p-4 border border-yellow-500 text-yellow-500 font-bold rounded-xl dark:hover:bg-gray-700 transition hover:scale-105 cursor-pointer duration-200">
                   Contactez-moi
                 </a>
               </div>
               <div className="mt-6 gap-2 md-gap-4 lg:gap-6 flex items-center justify-center lg:justify-start mb-0 md:mb-3 lg:mb-0 "> 
-                <div className="p-2 bg-white/5 backdrop-blur border border-white/30 rounded-lg dark:bg-gray-700 cursor-pointer">
-                  <a href="">
-                    <CloudCheckIcon className="w-6 h-6 text-gray-600 dark:text-gray-300 hover:text-fuchsia-600 dark:hover:text-fuchsia-400 transition"/>
+                <div className="p-2 bg-white/5 backdrop-blur border-2 dark:border-1 border-gray-300 dark:border-white/30 hover:shadow-lg hover:scale-105 transition duration-200 hover:border-green-500 rounded-lg dark:bg-gray-700 cursor-pointer group">
+                  <a href="https://wa.me/237676383986"  target="_blank" rel="noopener noreferrer" className="flex itmes-center justify-center">
+                    <i className="fab fa-whatsapp text-2xl text-gray-600 dark:text-gray-300 transition-colors group-hover:text-green-500  transition"></i>
                   </a> 
                 </div>
 
-                <div className="p-2 bg-white/5 backdrop-blur border border-white/30 rounded-lg dark:bg-gray-700 cursor-pointer">
-                  <a href="">
-                    <CloudCheckIcon className="w-6 h-6 text-gray-600 dark:text-gray-300 hover:text-fuchsia-600 dark:hover:text-fuchsia-400 transition"/>
+                  <div className="p-2 bg-white/5 backdrop-blur border  border-2 dark:border-1 border-gray-300 dark:border-white/30 hover:shadow-lg hover:scale-105 transition duration-200 hover:border-yellow-500 rounded-lg dark:bg-gray-700 cursor-pointer group">
+                  <a href="https://github.com/Franck-Dimitri" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+                    <i className="fab fa-github text-2xl text-gray-600 dark:text-gray-300 transition-colors group-hover:text-yellow-500 transition"></i>
                   </a> 
                 </div>
-                <div className="p-2 bg-white/5 backdrop-blur border border-white/30 rounded-lg dark:bg-gray-700 cursor-pointer">
-                  <a href="mailto:franckdimitrio009@gmail.com">
-                    <CloudCheckIcon className="w-6 h-6 text-gray-600 dark:text-gray-300 hover:text-fuchsia-600 dark:hover:text-fuchsia-400 transition"/>
+
+                <div className="p-2 bg-white/5 backdrop-blur border border-2 dark:border-1 border-gray-300 dark:border-white/30 hover:shadow-lg hover:scale-105 transition duration-200 hover:border-pink-500 rounded-lg dark:bg-gray-700 cursor-pointer group">
+                  <a href="mailto:franckdimitrio009@gmail.com" target="_blank" rel="noopener noreferrer" className="flex itmes-center justify-center">
+                    <i className="fas fa-envelope text-2xl text-gray-600 dark:text-gray-300 transition-colors group-hover:text-pink-500  transition"></i>
                   </a> 
                 </div>
               </div>
